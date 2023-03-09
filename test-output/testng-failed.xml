@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.swetha.testUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="FailedScenario(failed)">
+    <classes>
+      <class name="org.swetha.ToastMessage">
+        <methods>
+          <include name="failed_Scenario"/>
+          <include name="tearDown"/>
+          <include name="preSetUp"/>
+          <include name="AppiumSetUp"/>
+        </methods>
+      </class> <!-- org.swetha.ToastMessage -->
+    </classes>
+  </test> <!-- FailedScenario(failed) -->
+</suite> <!-- Failed suite [Suite] -->

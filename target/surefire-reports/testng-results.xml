@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-02T14:03:44 IST" name="Suite" finished-at="2023-03-02T14:04:57 IST" duration-ms="73419">
+    <groups>
+      <group name="Smoke">
+        <method signature="ShoppingApplication2.eCommerceTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.swetha.ShoppingApplication2@21fd5faa]" name="eCommerceTest" class="org.swetha.ShoppingApplication2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-03-02T14:03:44 IST" name="EndToEndFramework" finished-at="2023-03-02T14:04:50 IST" duration-ms="65840">
+      <class name="org.swetha.ShoppingApplication2">
+        <test-method is-config="true" signature="AppiumSetUp()[pri:0, instance:org.swetha.ShoppingApplication2@21fd5faa]" started-at="2023-03-02T14:03:44 IST" name="AppiumSetUp" finished-at="2023-03-02T14:04:06 IST" duration-ms="22745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumSetUp -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:org.swetha.ShoppingApplication2@21fd5faa]" started-at="2023-03-02T14:04:07 IST" name="preSetUp" finished-at="2023-03-02T14:04:08 IST" duration-ms="1870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="eCommerceTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.swetha.ShoppingApplication2@21fd5faa]" started-at="2023-03-02T14:04:08 IST" name="eCommerceTest" data-provider="getData" finished-at="2023-03-02T14:04:22 IST" duration-ms="13118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Swe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eCommerceTest -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:org.swetha.ShoppingApplication2@21fd5faa]" started-at="2023-03-02T14:04:23 IST" name="preSetUp" finished-at="2023-03-02T14:04:30 IST" duration-ms="7461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="eCommerceTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.swetha.ShoppingApplication2@21fd5faa]" started-at="2023-03-02T14:04:30 IST" name="eCommerceTest" data-provider="getData" finished-at="2023-03-02T14:04:47 IST" duration-ms="16398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Disan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eCommerceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.swetha.ShoppingApplication2@21fd5faa]" started-at="2023-03-02T14:04:47 IST" name="tearDown" finished-at="2023-03-02T14:04:50 IST" duration-ms="2756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.swetha.ShoppingApplication2 -->
+    </test> <!-- EndToEndFramework -->
+    <test started-at="2023-03-02T14:04:57 IST" name="FailedScenario" finished-at="2023-03-02T14:04:57 IST" duration-ms="13">
+    </test> <!-- FailedScenario -->
+  </suite> <!-- Suite -->
+</testng-results>
